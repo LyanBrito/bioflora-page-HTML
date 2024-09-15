@@ -71,3 +71,32 @@ button {
   background-color: #111633;
   color: white;
 }
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0px 109px 9px;
+  align-items: center;
+}
+section > img {
+  position: absolute;
+  right: 79%;
+  top: 890px;
+}
+.card-wrapper {
+  grid-template-columns: repeat(2, 600px);
+  display: grid;
+}
+.card-text > h3 {
+  font-size: 20px;
+}
+.card-text > p {
+  font-size: 16px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  margin-top: 107px;
+  height: 187px;
+  width: 564px;
+  gap: 29px;
+}
