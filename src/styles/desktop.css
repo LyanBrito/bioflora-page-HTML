@@ -124,4 +124,52 @@ article {
 .special-product {
   flex-direction: row;
 }
-  
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  height: 575px;
+  gap: 91px;
+  width: 100%;
+  background: linear-gradient(90.38deg, #bab7eb 1.12%, #7972cd 99.7%);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 35.9%;
+  gap: 20px;
+}
+input,
+textarea {
+  border: 1.9px solid black;
+  border-radius: 4px;
+  padding: 16px 24px 16px 24px;
+  font-size: 16px;
+  background-color: transparent;
+  resize: none;
+}
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 0;
+  width: 98.6%;
+}
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  width: 41%;
+  gap: 32px;
+}
+.contact-text > p,
+textarea,
+input {
+  font-weight: 300;
+  color: #4e4957;
+}
+.contact-text > h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
