@@ -6,6 +6,7 @@
   border: none;
   font-family: "Poppins", sans-serif;
   color: #111633;
+  transition: ease-in 0.3s;
 }
 body {
   background-color: #f2edfd;
@@ -63,7 +64,10 @@ p {
 }
 button {
   display: flex;
+  align-items: center;
+  gap: 10px;
   width: fit-content;
+  border: 3px solid #1D122F;
   padding: 24px 32px;
   text-decoration: none;
   font-size: 24px;
@@ -180,4 +184,8 @@ footer {
   justify-content: center;
   width: 100%;
   background: linear-gradient(90.38deg, #bab7eb 1.12%, #7972cd 99.7%);
+} 
+path{
+  color: white;
+
 }

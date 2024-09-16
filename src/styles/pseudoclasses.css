@@ -1,0 +1,28 @@
+a:hover {
+  color: aliceblue;
+}
+a:active {
+  color: black;
+}
+button:hover {
+  background-color: unset;
+  border: 3px solid #1d122f;
+}
+.title-wrapper>button:hover{
+    color: #1d122f;
+    
+}
+.title-wrapper>button:active{
+    background-color: #1d122f49;
+
+}
+button:active {
+  background-color: unset;
+  border: 3px solid #1d122f;
+  color: #1d122f;
+}
+
+path:{
+    color: white;
+  
+  }
