@@ -5,24 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BioFlora | Beleza que Florece</title>
     <link rel="stylesheet" href="src/styles/desktop.css" />
+    <link rel="stylesheet" href="src/styles/pseudoclasses.css" />
     <link
       rel="shortcut icon"
       href="src/assets/imgs/favico.svg"
       type="image/x-icon"
     />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   </head>
 
   <body>
     <header>
       <img src="src/assets/imgs/logo.svg" alt="logo" />
       <nav>
-        <a href="#">Início</a>
-        <a href="#">Produtos</a>
-        <a href="#">Desconto</a>
-        <a href="#">Contate-nos</a>
+        <a href="#home">Início</a>
+        <a href="#products">Produtos</a>
+        <a href="#offer">Desconto</a>
+        <a href="#contacts">Contate-nos</a>
       </nav>
     </header>
-    <main>
+    <main id="home">
       <div class="text-wrapper">
         <h1>Sobre Nós</h1>
         <p>
@@ -34,7 +36,7 @@
       </div>
       <img src="src/assets/imgs/element2.svg" alt="element2" />
     </main>
-    <section>
+    <section id="products">
       <img class="element" src="src/assets/imgs/element.svg" alt="" />
       <h1>Nossos Produtos</h1>
       <div class="card-wrapper">
@@ -89,14 +91,31 @@
         </div>
       </div>
     </section>
-    <article>
+    <article id="offer">
       <div class="title-wrapper">
         <h1>Desconto</h1>
         <p>30% Descontto em alguma coisa</p>
       </div>
-      <button>Ler mais <img src="src/assets/imgs/" alt="arrow" /></button>
+      <button>
+        Ler mais
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-move-right"
+        >
+          <path d="M18 8L22 12L18 16" />
+          <path d="M2 12H22" />
+        </svg>
+      </button>
     </article>
-    <section class="special-product">
+    <section id="special-product" class="special-product">
       <img src="./src/assets/imgs/placeholder-2.svg" alt="section-img" />
       <div class="title-wrapper">
         <h1>Base</h1>
@@ -111,7 +130,7 @@
         <button>Ler Mais</button>
       </div>
     </section>
-    <section id="contacts" class="contacts"></section>
+    <section id="contacts" class="contacts">
       <form id="contact-form">
         <input placeholder="Seu Nome" type="text" name="name" required />
         <input placeholder="Seu Email*" type="email" name="email" required />
@@ -143,5 +162,7 @@
       </div>
     </section>
     <footer><img src="./src/assets/imgs/logo.svg" alt="logo" /></footer>
+    <script type="module" src="/src/assets/script/receive-email.js"></script>
+    <script type="module" src="/src/assets/config/config.js"></script>
   </body>
 </html>
