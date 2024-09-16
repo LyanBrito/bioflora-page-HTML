@@ -1,14 +1,14 @@
-<svg width="844" height="918" viewBox="0 0 844 918" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<ellipse cx="460" cy="419" rx="435" ry="452" fill="url(#paint0_linear_1012_13)"/>
-<rect y="-150" width="1071.33" height="903.937" fill="url(#pattern0_1012_13)"/>
-<rect x="100" y="151" width="720" height="720" fill="url(#pattern1_1012_13)"/>
-<rect x="336" y="262" width="656" height="656" fill="url(#pattern2_1012_13)"/>
-<rect x="481" y="477" width="149" height="394" fill="url(#pattern3_1012_13)"/>
-<rect x="405" y="590" width="109.333" height="164" fill="url(#pattern4_1012_13)"/>
-<rect x="630" y="562" width="303" height="309" fill="url(#pattern5_1012_13)"/>
-<rect x="643" y="3" width="177" height="147.554" fill="url(#pattern6_1012_13)"/>
-<rect x="220" y="17" width="185" height="185" fill="url(#pattern7_1012_13)"/>
-<rect x="262" y="771" width="100" height="100" fill="url(#pattern8_1012_13)"/>
+<svg width="987" height="1032" viewBox="0 0 987 1032" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<ellipse cx="460" cy="533" rx="435" ry="452" fill="url(#paint0_linear_1012_13)"/>
+<rect y="-36" width="1071.33" height="903.937" fill="url(#pattern0_1012_13)"/>
+<rect x="100" y="265" width="720" height="720" fill="url(#pattern1_1012_13)"/>
+<rect x="336" y="376" width="656" height="656" fill="url(#pattern2_1012_13)"/>
+<rect x="481" y="591" width="149" height="394" fill="url(#pattern3_1012_13)"/>
+<rect x="405" y="704" width="109.333" height="164" fill="url(#pattern4_1012_13)"/>
+<rect x="630" y="676" width="303" height="309" fill="url(#pattern5_1012_13)"/>
+<rect x="643" y="117" width="177" height="147.554" fill="url(#pattern6_1012_13)"/>
+<rect x="220" y="131" width="185" height="185" fill="url(#pattern7_1012_13)"/>
+<rect x="262" y="885" width="100" height="100" fill="url(#pattern8_1012_13)"/>
 <defs>
 <pattern id="pattern0_1012_13" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_1012_13" transform="scale(0.00183824 0.00217865)"/>
@@ -37,7 +37,7 @@
 <pattern id="pattern8_1012_13" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image8_1012_13" transform="scale(0.00200401)"/>
 </pattern>
-<linearGradient id="paint0_linear_1012_13" x1="609.89" y1="3.38983" x2="333.889" y2="837.012" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_1012_13" x1="609.89" y1="117.39" x2="333.889" y2="951.012" gradientUnits="userSpaceOnUse">
 <stop stop-color="#9D95EB"/>
 <stop offset="0.3802" stop-color="#C8B6F3"/>
 <stop offset="1" stop-color="#EAD1FA"/>
