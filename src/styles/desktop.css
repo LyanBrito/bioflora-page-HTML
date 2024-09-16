@@ -173,3 +173,11 @@ input {
   font-size: 48px;
   font-weight: 600;
 }
+footer {
+  display: flex;
+  padding-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: linear-gradient(90.38deg, #bab7eb 1.12%, #7972cd 99.7%);
+}
