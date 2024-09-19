@@ -1,0 +1,107 @@
+@media (max-width: 375px) {
+  body {
+    align-items: center;
+  }
+
+  header {
+    position: unset;
+    width: 100%;
+    background: rgb(121, 115, 206);
+
+    background: linear-gradient(90.2deg, #8d88d7 0%, #aeabe6 41%, #bcb9ec 100%);
+  }
+  main {
+    flex-direction: column;
+    height: 380px;
+  }
+  main > img {
+    display: none;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  nav {
+    gap: 8px;
+  }
+  header {
+    gap: 10px;
+  }
+  section {
+    margin: 100px 0px 100px 0px;
+    height: 2600px;
+  }
+  header > img {
+    width: 100px;
+  }
+  a {
+    font-size: 10px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .text-wrapper {
+    width: 300px;
+  }
+  button {
+    font-size: 12px;
+    padding: 12px 16px;
+  }
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 320px;
+  }
+  .card-text {
+    width: 300px;
+  }
+  .card {
+    flex-direction: column;
+  }
+  .title-wrapper {
+    padding-left: unset;
+    width: 300px;
+  }
+  article {
+    height: fit-content;
+    gap: 30px;
+  }
+  .special-product {
+    flex-direction: column;
+    height: unset;
+    width: 300px;
+  }
+  .special-product > img {
+    width: 300px;
+  }
+  .contacts {
+    flex-direction: column-reverse;
+    height: unset;
+    width: 100%;
+  }
+  .contact-text > h1 {
+    font-size: 20px;
+  }
+  .contact-text {
+    gap: 10px;
+    width: 300px;
+    padding-top: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  form {
+    width: 90%;
+  }
+  .social-media > img {
+    width: 30px;
+  }
+  .button-wrapper {
+    justify-content: center;
+  }
+  footer {
+    padding-top: 20px;
+  }
+  footer > img {
+    width: 200px;
+  }
+}
